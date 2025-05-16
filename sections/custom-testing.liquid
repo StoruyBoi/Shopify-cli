@@ -1,6 +1,7 @@
 
 <div class="page-width">
 <h1>{{section.settings.text}}</h1>
+<p>{{section.settings.paragraph}}</p>
 </div>
 
 {% schema %} 
@@ -11,6 +12,11 @@
             "type": "text",
             "id": "text",
             "label": "Testing for the best"
+        },
+        {
+            "type": "richtext",
+            "id": "paragraph",
+            "label": "Paragraph"
         }
     ],
     "presets": [
